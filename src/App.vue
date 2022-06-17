@@ -118,4 +118,12 @@ const fixClass = computed(() => {
   border: 10px solid white;
   border-radius: 10px;
 }
+@media (max-width: 600px) {
+  .text {
+    font-size: 20px;
+  }
+  .phone > .rect {
+    border: 3px solid white;
+  }
+}
 </style>
